@@ -1,0 +1,116 @@
+.cartItemSection img{
+    width: 100%;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* overflow: hidden; */
+}
+
+.btnbuttons{
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+
+.sectionDiv{
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px gray;
+    top: 0;
+    right: 0;
+    /* position: fixed; */
+}
+
+
+
+.fa-solid {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding-left: 15px;
+}
+
+
+.fa-solid span{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.fathernav{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    box-shadow: 2px 2px 10px black;
+    background: #065374;
+}
+
+.navbarName{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLink{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.allitems{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 10px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: end;
+    font-weight: 500;
+}
+
+.section1{
+    margin-top:7%;
+}
+
+.carouselSave{
+    padding-top: 100px;
+}
+
+.sectionBg{
+    width: 90%;
+    margin: auto;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    background: #065374;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+.SectionP{
+    width: 90%;
+    margin: auto;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    background: #065374;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.AllCategory{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 20px;
+    text-align: end;
+    padding-right: 20px;
+    color: white;
+}
